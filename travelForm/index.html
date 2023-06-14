@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+
+        <h1> Welcome to Quokka Airlines!</h1>
+        <h2> Please complete the following information</h2>
+
+        <form name = "custForm">
+            What is your name?
+            <input type="text" name="firstName" placeholder="First Name" required/>
+            <input type="text" name="secondName" placeholder="Last Name" required/>
+            <br>
+            How old are you?
+            <input type="number" name="age" required/>
+            <br>
+            What is your gender?
+            Male: <input type="radio" name="gender" value="Male"/>
+            Female: <input type="radio" name="gender" value="Female"/>
+            Other: <input type="radio" name="gender" value="Other"/>
+            <br>
+            Where would you like to travel to? Check all that apply:
+            Brazil: <input type="checkbox" name="destinations" value="Brazil"/>
+            Bora Bora: <input type="checkbox" name="destinations" value=" Bora Bora"/>
+            Mars: <input type="checkbox" name="destinations" value=" Mars"/>
+            <br>
+            Do you have any dietary restrictions?
+            Gluten-Free: <input type="checkbox" name="diet" value="Gluten-Free"/>
+            Vegetarian: <input type="checkbox" name="diet" value=" Vegetarian"/>
+            Low-Carb: <input type="checkbox" name="diet" value=" Low-Carb"/>
+            Kosher: <input type="checkbox" name="diet" value=" Kosher"/>
+            None: <input type="checkbox" name="diet" value=" None"/>
+            <br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
