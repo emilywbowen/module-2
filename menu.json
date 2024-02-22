@@ -1,0 +1,67 @@
+{ 
+    "appetizers":[
+    {"name": "crab dip",
+    "ingredients": ["crab", "cheese", "barf"],
+    "description": "This dip is sure to please a small niche crowd of weirdos. Dunk your least favorite cracker in this delectibly nasty dip. No refunds. You've been warned."},
+
+    {"name": "fried cheese curds",
+    "ingredients": ["cheese", "oil", "'bread' crumbs"],
+    "description": "Fried cheese just like your mom never made. The 'bread' crumbs are made of soylent green. Enough oil to run a bus."
+    }
+    ],
+    
+    "cold sandwiches":[
+        {"name": "The Beast",
+        "ingredients": ["Belle", "Gaston", "12 dozen eggs"],
+        "description": "The Beast got tired finally. Now he is roughly the size of 5 barges. Nooooooo.....onnnnneeeeeee..... eats like Gaston.... Except... THE BEAST!"
+    },
+    {
+        "name": "Peanut Butter Jelly Thyme",
+        "ingredients": ["thyme jelly", "bread", "peanut butter"],
+        "description": "This may or may not be the best grossest thing you've ever put in your mouth."
+    }
+    ],
+    
+    "hot sandwiches":[
+        {
+            "name": "Grilled Cheesus",
+            "ingredients": ["bread", "gouda", "sadness"],
+            "description": "If deities were sandwiches, this one would be the worst. Just....no."
+        },
+        {
+            "name": "Monte Cristo",
+            "ingredients": ["bread", "Monte", "ham", "swiss cheese"],
+            "description": "Deep fried by Monte with a bit of Monte essence. Served with a side of 'raspberry jam'."
+        }
+
+    ],
+
+    "desserts":[
+        {
+            "name": "Lemon Delight",
+            "ingredients":["chocolate", "caramel", "pineapple", "strawberries", "coconut"],
+            "description": "A rich chocolate brownie covered in caramelized pineapple topped with strawberries and shredded coconut. Of course it doesn't have lemon! Why would you ask that?"
+        },
+        {
+            "name": "Chocolate Delight",
+            "ingredients":["lemon", "white chocolate", "cream cheese"],
+            "description": "A delicious lemon bar topped with a white chocolate cream cheese frosting...hold on...who wrote this menu?"
+        }
+
+    ],
+
+     "drinks":[
+        {
+            "name": "Water",
+            "ingredients":["ice", "water"],
+            "description": "A tall glass of cold ice water, hand poured by Monte."
+        },
+        {
+            "name": "The Unicorn Swirl",
+            "ingredients":["cotton candy", "lemon vodka", "grenadine", "blue curacao", "pineapple juice", "gummy rainbows", "whipped cream"],
+            "description":"Wanna get stupid drunk while feeling like a My Little Pony? This drink is for you!"
+        }
+
+     ]
+}
+
