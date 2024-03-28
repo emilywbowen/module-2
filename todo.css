@@ -1,0 +1,39 @@
+img{
+    width: 300px
+}
+
+/* need containers for grid */
+/* I want the items to be centered, so I want a 1-2, 2-3, 3-4 grid */
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: rgb(218, 243, 243);
+}
+html{
+    background-color: rgba(51, 145, 135, 0.775);
+    background-image: url(https://images.unsplash.com/photo-1576180616247-f0523fd483ee?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    opacity: .8;
+    
+}
+
+.todo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column: 1/4;
+    background-color: rgba(116, 211, 218, 0.37);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color:rgb(240, 227, 237);
+    width: 1000px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+    [class*="todo"]{
+        width: 100%;
+        background-color: rgb(255, 225, 127);
+        color:rgba(51, 145, 135, 0.775);
+        font-family: fantasy;
+    }
+}
